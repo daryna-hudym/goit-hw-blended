@@ -4,12 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business Promotion - Product</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@400;500;600;700&display=swap"
+            rel="stylesheet"/>
+    <link rel="stylesheet" href="/css/styles.css"/>
 </head>
 <body>
  <header>
+   <div class="container header-container">
     <nav>
-        <a href="./index.html"><img src="./images/logo.svg" alt="logo"/>Product</a>
-        <ul>
+        <a class="logo-header" href="./index.html"><img src="./images/logo.svg" alt="logo"/>Product</a>
+        <ul class="navigation-links">
           <li><a href="./index.html">Product</a></li>            
           <li><a href="./pricing.html">Pricing</a></li>
           <li><a href="./customers.html">Customers</a></li>
@@ -20,15 +28,18 @@
         <li><a href="">Sign In</a></li>
         <li><a href="">Sign Up</a></li>
     </ul>
+   </div>
  </header>
  <main>
-    <section>
+    <section >
+        <div class="container hero-container">
         <h1>Work at the speed of thought</h1>
         <p>Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user
         experience.</p>
         <button type="button">Get started</button>
         <button type="button">Watch the Video</button>
         <img src="./images/hero-img.svg" alt="hero">
+        </div>
     </section>
 
     <section>
@@ -168,40 +179,54 @@
         </ul>
     </section>
 
-    <section>
-        <h2>What Clients Say</h2>
-        <p>Problems trying to resolve the conflict between
+    <section class="clients-feedback">
+        <div class="container clients-feedback-container">
+        <h2 class="feedback-title">What Clients Say</h2>
+        <p class="feedback-text">Problems trying to resolve the conflict between
         the two major realms of Classical physics: Newtonian mechanics</p>
 
-        <ul>
-            <li>
-                <div>Rating</div>
-                <p>Product helps you see how many
+        <ul class="feedback-list">
+            <li class="feedback-list-item">
+                <div class="clients-feedback-stars">Rating</div>
+                <p class="clients-feedback-text">Product helps you see how many
                 more days you need to work to
                 reach your financial goal.</p>
-                <img src="./images/client-1.png" alt="client-1">
-                <h3>Wahid Ari</h3>
-                <p>Designer</p>
+                <div class="clients-feedback-inner">
+                <img class="clients-feedback-photo" src="./images/client-1.png" alt="client-1">
+                <div class="clients-feedback-inner-body">
+                <h3 class="clients-feedback-name">Wahid Ari</h3>
+                <p class="clients-feedback-position">Designer</p>
+                </div>
+                </div>
             </li>
-            <li>
-                <div>Rating</div>
-                <p>Product helps you see how many
+            <li class="feedback-list-item">
+                <div class="clients-feedback-stars">Rating</div>
+                <p class="clients-feedback-text">Product helps you see how many
                 more days you need to work to
                 reach your financial goal.</p>
-                <img src="./images/client-2.png" alt="client-2">
-                <h3>Wahid Ari</h3>
-                <p>Designer</p>
+                <div class="clients-feedback-inner">
+                <img class="clients-feedback-photo" src="./images/client-2.png" alt="client-2">
+                <div class="clients-feedback-inner-body">
+                <h3 class="clients-feedback-name">Wahid Ari</h3>
+                <p class="clients-feedback-position">Designer</p>
+                </div>
+                </div>
             </li>
-            <li>
-                <div>Rating</div>
-                <p>Product helps you see how many
+            <li class="feedback-list-item">
+                <div class="clients-feedback-stars">Rating</div>
+                <p class="clients-feedback-text">Product helps you see how many
                 more days you need to work to
                 reach your financial goal.</p>
-                <img src="./images/client-3.png" alt="client-3">
-                <h3>Wahid Ari</h3>
-                <p>Designer</p>
+                <div class="clients-feedback-inner">
+                <img class="clients-feedback-photo" src="./images/client-3.png" alt="client-3">
+                <div class="clients-feedback-inner-body">
+                <h3 class="clients-feedback-name">Wahid Ari</h3>
+                <p class="clients-feedback-position">Designer</p>
+                </div>
+                </div>
             </li>
         </ul>
+        </div>
     </section>
 
     <section>

@@ -1,0 +1,152 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #fff;
+    color: #22343D;
+}
+
+ul, ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* HEADER */
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-header {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0.93;
+    color: #173a56;
+    padding: 26px auto;
+    margin-right: auto;
+}
+
+.navigation-links {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #22343d;
+    display: flex; 
+    align-items: center;
+    gap: 30px;
+}
+
+/* HEADER */
+
+/* HERO */
+
+.hero-container {
+    
+}
+
+/* CLIENTS-FEEDBACK */
+
+.clients-feedback-container {
+    padding: 50px 0;
+}
+
+.feedback-title {
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.78;
+    letter-spacing: 0.01em;
+}
+
+.feedback-text {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 537px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feedback-list {
+    display: flex;
+    gap: 64px;
+}
+
+.feedback-list-item {
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    padding: 28px 26px;
+    width: calc((100% - 128px) / 3);
+}
+
+.clients-feedback-stars {}
+
+.clients-feedback-text {
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    color: #737373;
+    margin-bottom: 16px;
+}
+
+.clients-feedback-inner {
+    display: flex;
+    align-items: center;
+}
+
+.clients-feedback-inner-body {
+    margin-left: 14px;
+}
+.clients-feedback-position {}
+
+.clients-feedback-photo {
+    width: 50px;
+    height: 50px;
+}
+
+.clients-feedback-name {
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: #02897a;
+}
+
+.clients-feedback-position {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.01em;
+    color: #252b42;
+}
+
+/* CLIENTS-FEEDBACK */
